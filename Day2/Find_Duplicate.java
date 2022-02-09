@@ -1,3 +1,5 @@
+package Day2;
+
 public class Find_Duplicate {
     public int findDuplicate(int[] nums) {
         int fast = nums[0], slow = nums[0];

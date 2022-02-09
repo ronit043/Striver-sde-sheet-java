@@ -1,3 +1,5 @@
+package Day4;
+
 import java.util.*;
 
 public class Longest_Consequence {

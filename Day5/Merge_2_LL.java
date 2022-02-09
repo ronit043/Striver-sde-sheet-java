@@ -1,3 +1,5 @@
+package Day5;
+
 public class Merge_2_LL {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if(list1 == null) return list2;

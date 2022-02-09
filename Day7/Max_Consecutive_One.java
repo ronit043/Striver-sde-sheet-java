@@ -1,3 +1,5 @@
+package Day7;
+
 public class Max_Consecutive_One {
     public int findMaxConsecutiveOnes(int[] nums) {
         int cnt = 0, max = 0;

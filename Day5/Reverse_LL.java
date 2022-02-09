@@ -1,3 +1,5 @@
+package Day5;
+
 public class Reverse_LL {
     public ListNode reverseList(ListNode head) {
         ListNode temp = null;
@@ -9,9 +11,4 @@ public class Reverse_LL {
         }
         return temp;
     }
-}
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int val) { this.val = val; }
 }

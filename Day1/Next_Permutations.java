@@ -1,3 +1,5 @@
+package Day1;
+
 public class Next_Permutations {
     public void nextPermutation(int[] nums) {
         int bp = 0, chng = 0;

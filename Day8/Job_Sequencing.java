@@ -1,3 +1,7 @@
+package Day8;
+
+import java.util.Arrays;
+
 public class Job_Sequencing {
     int[] JobScheduling(Job[] arr, int n) {
         Arrays.sort(arr, (p1, p2) -> p2.profit - p1.profit);
@@ -24,7 +28,16 @@ public class Job_Sequencing {
                 }
             }
         }
-		ans[0] = jobs; ans[1] = prof;
+		ans[0] = jobs; ans[1] = profit;
         return ans;
+    }
+}
+
+class Job {
+    int id, profit, deadline;
+    Job(int x, int y, int z){
+        id = x;
+        deadline = y;
+        profit = z;
     }
 }

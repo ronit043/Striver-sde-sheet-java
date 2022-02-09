@@ -1,3 +1,5 @@
+package Day3;
+
 public class Search_in_2d_matrix_ii {
 	public boolean searchMatrix(int[][] matrix, int target) {
 		int r = 0, c = matrix[0].length - 1;

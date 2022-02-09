@@ -1,3 +1,7 @@
+package Day8;
+
+import java.util.Arrays;
+
 public class Minimum_Platforms {
     public int findPlatform(int[] arr, int[] dep, int n) {
         int maxP = 1, arrH = 0, depH = 0, plt = 1;

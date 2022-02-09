@@ -1,3 +1,7 @@
+package Day8;
+
+import java.util.Arrays;
+
 public class Fractional_Knapsack {
     double fractionalKnapsack(int W, Item[] arr, int n) {
         double ans = 0.00;
@@ -17,5 +21,13 @@ public class Fractional_Knapsack {
             }
         }
         return ans;
+    }
+}
+
+class Item {
+    int value, weight;
+    Item(int x, int y){
+        this.value = x;
+        this.weight = y;
     }
 }

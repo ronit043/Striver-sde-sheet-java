@@ -1,3 +1,5 @@
+package Day3;
+
 public class Grid_Unique_Paths {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];

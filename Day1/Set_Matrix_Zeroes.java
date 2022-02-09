@@ -1,3 +1,5 @@
+package Day1;
+
 public class Set_Matrix_Zeroes {
     public void setZeroes(int[][] matrix) {
         boolean colch = false;

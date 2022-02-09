@@ -1,3 +1,5 @@
+package Day7;
+
 public class Trapping_Rainwater {
     public int trap(int[] height) {
         int total = 0, highL = 0, highR = 0;

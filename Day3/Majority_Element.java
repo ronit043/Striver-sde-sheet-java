@@ -1,6 +1,5 @@
-/**
- * Majority_Element
- */
+package Day3;
+
 public class Majority_Element {
     public int majorityElement(int[] nums) {
         int counter = 0, majority = 0;

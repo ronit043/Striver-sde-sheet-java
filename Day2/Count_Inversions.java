@@ -1,3 +1,5 @@
+package Day2;
+
 import java.util.Arrays;
 
 public class Count_Inversions {
@@ -17,7 +19,8 @@ public class Count_Inversions {
     }
 
     static long countAndMerge(long[] arr, int l, int m, int r) {
-        long res = 0, left[] = Arrays.copyOfRange(arr, l, m + 1), right[] = Arrays.copyOfRange(arr, m + 1, r + 1);
+        long res = 0;
+        long[] left = Arrays.copyOfRange(arr, l, m + 1), right = Arrays.copyOfRange(arr, m + 1, r + 1);
         int i = 0, j = 0, k = l, n1 = left.length, n2 = right.length;
         while (i < n1 && j < n2) {
             if (left[i] <= right[j])

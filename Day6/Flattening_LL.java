@@ -1,3 +1,7 @@
+package Day6;
+
+import Day5.ListNode;
+
 public class Flattening_LL {
     ListNode merge(ListNode h1, ListNode h2) {
         ListNode temp = new ListNode(0), res = temp;
@@ -23,10 +27,4 @@ public class Flattening_LL {
         head = merge(head, head.next);
         return head;
     }
-}
-
-class ListNode {
-	int val;
-	ListNode next, bottom;
-	ListNode(int d) { val = d; }
 }

@@ -1,3 +1,7 @@
+package Day6;
+
+import Day5.ListNode;
+
 public class Detect_Cycle_in_LL {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head, fast = head;
@@ -9,10 +13,4 @@ public class Detect_Cycle_in_LL {
         }
         return false;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int val) { this.val = val; }
 }

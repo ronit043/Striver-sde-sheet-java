@@ -1,3 +1,5 @@
+package Day7;
+
 public class Remove_Duplicates {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0) return 0;

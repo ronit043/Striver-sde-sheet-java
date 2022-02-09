@@ -1,3 +1,5 @@
+package Day2;
+
 public class Rotate_Matrix {
     public void rotate(int[][] matrix) {
 		int r = matrix.length, c = r;

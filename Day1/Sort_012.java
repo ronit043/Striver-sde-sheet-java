@@ -1,3 +1,5 @@
+package Day1;
+
 public class Sort_012 {
     public void sortColors(int[] nums) {
 	    int zeroIndex = 0, twoIndex = nums.length - 1, i = 0;

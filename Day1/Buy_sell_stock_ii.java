@@ -1,3 +1,5 @@
+package Day1;
+
 public class Buy_sell_stock_ii {
     public int maxProfit(int[] prices) {
         int profit = 0;

@@ -1,3 +1,5 @@
+package Day5;
+
 public class Remove_nth_node_from_end_LL {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode fast = head, slow = head;

@@ -1,28 +1,24 @@
+package Day6;
+
+import Day5.ListNode;
+
 public class Rotate_LL {
     public ListNode rotateRight(ListNode head, int k) {
-        if (head == null)
-            return head;
-        int len = 1;
-        ListNode curr = head;
-        while (curr.next != null) {
-            ++len;
-            curr = curr.next;
+        if (head == null) return null;
+        int size = 1; // since we are already at head node
+        ListNode fast = head, slow = head;
+
+        while (fast.next != null) {
+            size++;
+            fast = fast.next;
         }
+        // i>1 because we need to put slow.next at the start.
+        for (int i = size - k % size; i > 1; i--) slow = slow.next;
 
-        curr.next = head;
-        k = len - k % len;
-
-        while (k-- > 0)
-            curr = curr.next;
-        head = curr.next;
-        curr.next = null;
+        fast.next = head;
+        head = slow.next;
+        slow.next = null;
 
         return head;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int val) { this.val = val; }
 }

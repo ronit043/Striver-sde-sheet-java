@@ -1,3 +1,7 @@
+package Day7;
+
+import Day5.ListNode;
+
 public class Clone_LL_with_next_random_pointer {
     public ListNode copyRandomList(ListNode head) {
         if(head == null) return head;
@@ -26,10 +30,4 @@ public class Clone_LL_with_next_random_pointer {
         }
         return temp.next;
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int val) { this.val = val; }
 }
