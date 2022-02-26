@@ -26,4 +26,27 @@ public class Detect_cycle_UG_DFS {
 
         return false;
     }
+
+    //Iterative DFS
+
+//    public List<Integer> dfsOfGraph(int V, List<List<Integer>> adj) {
+//        boolean[] vis = new boolean[V];
+//        ArrayDeque<Integer> stq = new ArrayDeque<>();
+//        List<Integer> ans = new ArrayList<>();
+//
+//        stq.push(0);
+//        while(!stq.isEmpty()) {
+//            int node = stq.pop();
+//
+//            if(vis[node]) continue;
+//            vis[node] = true;
+//
+//            ans.add(node);
+//
+//            for (int i = adj.get(node).size() - 1; i >= 0; i--)
+//                stq.push(adj.get(node).get(i));
+//        }
+//
+//        return ans;
+//    }
 }
