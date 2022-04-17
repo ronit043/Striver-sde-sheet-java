@@ -2,6 +2,17 @@ package Day6;
 
 import Day5.ListNode;
 
+/*
+    TC : O(n), 2 pass solution
+    SC : O(1)
+
+    Solution
+
+    First find the middle of the linkedlist, then reverse the list after slow's next, reversing the list will
+    enable us to compare values, since it's only a singly linked list. If we find a mismatch it's not a palindrome
+    else it is.
+*/
+
 public class Palindrome_LL {
 
     public boolean isPalindrome(ListNode head) {

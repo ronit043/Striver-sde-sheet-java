@@ -4,6 +4,7 @@ public class Remove_Duplicates {
     public int removeDuplicates(int[] nums) {
         if(nums.length == 0) return 0;
         int count = 1;
+
         for(int slow = 0, fast = 0; fast < nums.length; ) {
             if(nums[slow] != nums[fast]) { 
                 count++;
@@ -12,6 +13,7 @@ public class Remove_Duplicates {
             }
             fast++;
         }
+
         return count;
     }
 }

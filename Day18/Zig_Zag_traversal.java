@@ -27,7 +27,7 @@ public class Zig_Zag_traversal {
                 if(temp.right != null) q.add(temp.right);
             }
             ans.add(layer_vals);
-            order = order ? false : true;
+            order = !order;
         }
         
         return ans;

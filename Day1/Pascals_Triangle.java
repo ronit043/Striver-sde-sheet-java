@@ -1,5 +1,18 @@
 package Day1;
 
+/*
+    TC : O(n ^ 2)
+    SC : O(n ^ 2)
+*/
+
+/*
+Solution
+
+We observe for every row, the first column and last column will be 1, so add 1
+For every other column the value is sum of value1(previous row, same column) and
+sum of value2(previous row, previous column).
+*/
+
 import java.util.*;
 
 public class Pascals_Triangle {
@@ -15,6 +28,7 @@ public class Pascals_Triangle {
             }
             res.add(row);
         }
+
         return res;
     }
 }

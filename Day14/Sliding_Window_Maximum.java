@@ -2,23 +2,27 @@ package Day14;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
 
 public class Sliding_Window_Maximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
-        ArrayDeque<Integer> q = new ArrayDeque<>(); // stores indices
-        ArrayList<Integer> res = new ArrayList<>();
+        Deque<Integer> adq = new ArrayDeque<>();
+        List<Integer> al = new ArrayList<>();
 
-        for (int i = 0; i < nums.length; i++) {
-            // remove indices from deque that are out of bound
-            if (!q.isEmpty() && q.peekFirst() == i - k) q.pollFirst();
-            // remove indices whose corresponding values are less than nums[i]
-            while (!q.isEmpty() && nums[q.peekLast()] <= nums[i]) q.pollLast();
-            q.addLast(i);
-            // if window has k elements add to results (first k-1 windows have < k elements
-            // because we start from empty window and add 1 element each iteration)
-            if (i >= k - 1) res.add(nums[q.peekFirst()]);
+        for(int i = 0; i < nums.length; i++) {
+            // Making sure elements in the deque aren't smaller than the current element
+            while(!adq.isEmpty() && nums[i] >= nums[adq.peekLast()]) adq.pollLast();
+
+            adq.offerLast(i);
+
+            // If any index goes out of bounds, then remove
+            if(!adq.isEmpty() && adq.peekFirst() == i - k) adq.pollFirst();
+
+            // Otherwise add
+            if(i >= k - 1) al.add(nums[adq.peekFirst()]);
         }
 
-        return res.stream().mapToInt(i -> i).toArray();
+        return al.stream().mapToInt(i -> i).toArray();
     }
 }

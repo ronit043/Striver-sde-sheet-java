@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class MST_Prim {
-    static int spanningTree(int V, List<List<List<Integer>>> adj){
+    static int spanningTree(int V, List<List<List<Integer>>> adj) {
         boolean[] vis = new boolean[V];
         return bfs(adj, vis);
     }
@@ -18,12 +18,12 @@ public class MST_Prim {
         );
         pq.offer(new Point(0, 0));
 
-        while(!pq.isEmpty()) {
+        while (!pq.isEmpty()) {
             Point p = pq.poll();
-            if(!vis[p.x]) {
+            if (!vis[p.x]) {
                 vis[p.x] = true;
                 ans += p.y;
-                for(var i : adj.get(p.x))
+                for (var i : adj.get(p.x))
                     pq.add(new Point(i.get(0), i.get(1)));
             }
         }

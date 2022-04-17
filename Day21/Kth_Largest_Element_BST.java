@@ -11,11 +11,11 @@ public class Kth_Largest_Element_BST {
     }
 
     public void traverse(TreeNode node, int k) {
-        if(node == null) return;
+        if (node == null) return;
 
         traverse(node.right, k);
         count++;
-        if(count == k) ans = node.val;
+        if (count == k) ans = node.val;
         traverse(node.left, k);
     }
 }

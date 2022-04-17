@@ -11,9 +11,9 @@ public class Topological_Sort_DFS {
         List<Integer> al = new ArrayList<>();
         Deque<Integer> stq = new ArrayDeque<>();
 
-        for (int i = 0; i < V; ++i) if(!vis[i]) dfs(adj, vis, stq, i);
+        for (int i = 0; i < V; ++i) if (!vis[i]) dfs(adj, vis, stq, i);
 
-        while(!stq.isEmpty()) al.add(stq.pop());
+        while (!stq.isEmpty()) al.add(stq.pop());
 
         return al.stream().mapToInt(i -> i).toArray();
     }

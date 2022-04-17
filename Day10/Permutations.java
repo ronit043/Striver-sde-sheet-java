@@ -6,7 +6,9 @@ import java.util.List;
 public class Permutations {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
+
         help(res, nums, 0);
+
         return res;
     }
 

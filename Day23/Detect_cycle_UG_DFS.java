@@ -9,7 +9,7 @@ public class Detect_cycle_UG_DFS {
         for (var nbr : adj.get(node)) {
             if (!vis[nbr])
                 if (dfs(nbr, node, vis, adj)) return true;
-            else if (nbr != par) return true;
+                else if (nbr != par) return true;
         }
 
         return false;

@@ -17,6 +17,7 @@ public class Kth_element_of_2_sorted_arrays {
             temp = arr2[j++];
             k--;
         }
+
         return temp;
     }
 }

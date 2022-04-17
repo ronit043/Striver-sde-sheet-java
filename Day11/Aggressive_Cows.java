@@ -16,6 +16,7 @@ public class Aggressive_Cows {
 
     static int binarySearch(int cows, int[] arr) {
         int l = 1, r = arr[arr.length - 1] - arr[0], ans = -1;
+
         while (l <= r) {
             int m = l + (r - l) / 2;
             if(check(m, cows, arr)) {
@@ -24,6 +25,7 @@ public class Aggressive_Cows {
             }
             else r = m - 1;
         }
+
         return ans;
     }
 

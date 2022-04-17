@@ -5,11 +5,11 @@ import Day17.TreeNode;
 public class B_Tree_from_Inorder_Postorder {
     public TreeNode buildTree(int[] postorder, int[] inorder) {
         return buildTree_(postorder, 0, postorder.length - 1,
-                                inorder, 0, inorder.length - 1);
+                inorder, 0, inorder.length - 1);
     }
 
     public TreeNode buildTree_(int[] pstO, int psi, int pei, int[] inO, int isi, int iei) {
-        if(isi > iei) return null;
+        if (isi > iei) return null;
         int idx = isi;
         TreeNode root = new TreeNode(pstO[pei]);
 

@@ -11,11 +11,11 @@ public class Kth_Smallest_Element_BST {
     }
 
     public void traverse(TreeNode node, int k) {
-        if(node == null) return;
+        if (node == null) return;
 
         traverse(node.left, k);
         count++;
-        if(count == k) ans = node.val;
+        if (count == k) ans = node.val;
         traverse(node.right, k);
     }
 }

@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Allocate_Books {
     public int books(int[] arr, int k) {
         int l = Arrays.stream(arr).max().getAsInt(), r = Arrays.stream(arr).sum(), ans = -1;
+
         while (l <= r) {
             int m = l + (r - l) / 2;
             if (isFeasible(arr, k, m)) {
@@ -13,6 +14,7 @@ public class Allocate_Books {
             }
             else l = m + 1;
         }
+
         return ans;
     }
 

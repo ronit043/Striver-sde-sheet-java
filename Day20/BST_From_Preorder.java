@@ -8,8 +8,6 @@ public class BST_From_Preorder {
     }
 
     TreeNode buildTree(int[] preorder, int ub) {
-        TreeNode node = new TreeNode(preorder[0]);
-
-        return node;
+        return new TreeNode(preorder[0]);
     }
 }

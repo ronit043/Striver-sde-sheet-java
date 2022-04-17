@@ -9,9 +9,9 @@ public class LCA {
         TreeNode left = lca(root.left, p, q);
         TreeNode right = lca(root.right, p, q);
 
-        if(left == null) return right;
-        else if(right == null) return left;
-        // both left and right aren't null, so we found answer
+        if (left == null) return right;
+        else if (right == null) return left;
+            // both left and right aren't null, so we found answer
         else return root;
     }
 }

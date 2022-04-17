@@ -11,8 +11,7 @@ public class Fractional_Knapsack {
 
         for (int i = 0; i < n && W > 0;) {
             if (arr[i].weight > W) {
-                ans += ((double) arr[i].value / (double) arr[i].weight)
-                        * (double) W;
+                ans += ((double) arr[i].value / (double) arr[i].weight) * (double) W;
                 W = 0;
             } else {
                 ans += (double) (arr[i].value);

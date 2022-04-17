@@ -19,6 +19,7 @@ public class Merge_Overlapping_Subintervals {
     			ans.add(interval);
     		}
     	}
+
     	return ans.toArray(new int[ans.size()][]);
     }
 }

@@ -9,6 +9,7 @@ public class BSTIterator {
     // reverse = true -> before
     // reverse = false -> next
     boolean reverse;
+
     public BSTIterator(TreeNode root, boolean reverse) {
         this.reverse = reverse;
         pushAll(root);

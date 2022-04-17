@@ -4,9 +4,9 @@ public class Number_of_islands {
     public int numIslands(char[][] grid) {
         int island = 0;
 
-        for(int i = 0; i < grid.length; i++) {
-            for(int j = 0; j < grid[0].length; j++) {
-                if(grid[i][j] != '0') {
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] != '0') {
                     island++;
                     dfs(grid, i, j);
                 }

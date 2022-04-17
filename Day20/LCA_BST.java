@@ -7,7 +7,7 @@ public class LCA_BST {
         TreeNode lca = root;
 
         while (lca != null) {
-            if(lca.val > p.val && lca.val > q.val) lca = lca.left;
+            if (lca.val > p.val && lca.val > q.val) lca = lca.left;
             else if (lca.val < p.val && lca.val < q.val) lca = lca.right;
             else break;
         }

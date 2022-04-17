@@ -9,7 +9,7 @@ public class Validate_BST {
 
     boolean validate(TreeNode root, long minValue, long maxValue) {
         if (root == null) return true;
-        if(root.val < minValue || root.val > maxValue) return false;
+        if (root.val < minValue || root.val > maxValue) return false;
         return validate(root, root.val, maxValue) && validate(root, minValue, root.val);
     }
 }

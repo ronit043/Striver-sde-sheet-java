@@ -8,7 +8,7 @@ public class Job_Sequencing {
         int maxD = 0, profit = 0, jobs = 0, ans[] = new int[2];
 
         for (Job i : arr) maxD = Math.max(maxD, i.deadline);
-        int timeline[] = new int[maxD + 1];
+        int[] timeline = new int[maxD + 1];
 
         for (Job i : arr) {
             if (timeline[i.deadline] == 0) {

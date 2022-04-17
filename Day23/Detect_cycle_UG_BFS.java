@@ -9,7 +9,7 @@ public class Detect_cycle_UG_BFS {
         boolean[] vis = new boolean[numCourses + 1];
 
         for (int i = 0; i < numCourses; i++) {
-            if(!vis[i])
+            if (!vis[i])
                 if (cycleDetect(i, vis, prerequisites)) return true;
         }
 
@@ -32,7 +32,7 @@ public class Detect_cycle_UG_BFS {
                     q.offer(new Point(nbr, curr));
                 }
                 // Checking for a cycle
-                else if(nbr != parent) return true;
+                else if (nbr != parent) return true;
             }
         }
 
