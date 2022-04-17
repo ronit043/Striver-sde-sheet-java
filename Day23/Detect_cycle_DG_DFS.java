@@ -6,7 +6,6 @@ import java.util.Queue;
 public class Detect_cycle_DG_DFS {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] indegree = new int[numCourses];
-        int select = 0;
         Queue<Integer> q = new ArrayDeque<>();
 
         for (var pair : prerequisites)

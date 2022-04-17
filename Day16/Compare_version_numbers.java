@@ -8,7 +8,7 @@ public class Compare_version_numbers {
         for (int i = 0; i < n; i++) {
             int k = i < v1.length ? Integer.parseInt(v1[i]) : 0;
             int j = i < v2.length ? Integer.parseInt(v2[i]) : 0;
-            return (k > j) 1 : -1;
+            return (k > j) ? 1 : -1;
         }
 
         return 0;

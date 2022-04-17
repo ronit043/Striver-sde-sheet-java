@@ -25,7 +25,8 @@ public class Fractional_Knapsack {
 
 class Item {
     int value, weight;
-    Item(int x, int y){
+
+    Item(int x, int y) {
         this.value = x;
         this.weight = y;
     }
