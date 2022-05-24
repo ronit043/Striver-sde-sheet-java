@@ -4,22 +4,34 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Merge_Overlapping_Subintervals {
-    public int[][] merge(int[][] itrvl) {
-    	Arrays.sort(itrvl, (i1, i2) -> Integer.compare(i1[0], i2[0]));
-    	List<int[]> ans = new ArrayList<>();
-    	int[] interval = itrvl[0];
-    	ans.add(interval);
-    	
-    	for (int[] itr : itrvl) {
-    		if(itr[0] <= interval[1]) 
-    			interval[1] = Math.max(interval[1], itr[1]);
-    		else {
-    			interval = itr;
-    			ans.add(interval);
-    		}
-    	}
+/*
+	TC : O(n log(n)) + O(n); SC : O(n)
 
-    	return ans.toArray(new int[ans.size()][]);
+Solution
+
+The idea is to sort the intervals by their starting points. Then, we take the first interval and
+compare its end with the next intervals start. As long as they overlap, we update the end to be
+the max end of the overlapping intervals. On finding a non overlapping interval, we can add the
+previous "extended" interval and start over.
+
+ */
+public class Merge_Overlapping_Subintervals {
+    public int[][] merge(int[][] intervals) {
+        List<int[]> ans = new ArrayList<>();
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int start = intervals[0][0], end = intervals[0][1];
+
+        for (var interval : intervals) {
+            if (interval[0] <= end)
+                end = Math.max(end, interval[1]);
+            else {
+                ans.add(new int[] {start, end});
+                start = interval[0];
+                end = interval[1];
+            }
+        }
+
+        ans.add(new int[] {start, end});
+        return ans.toArray(new int[0][0]);
     }
 }

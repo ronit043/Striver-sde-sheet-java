@@ -1,34 +1,33 @@
 package Day1;
 
 /*  
-    TC : O(n)
-    SC : O(1)
+    TC : O(n), SC : O(1)
 
 Solution
 
 Find the last index(pivot) such that a[i] > a[i - 1]. If no such index exists, the permutation
 is the last permutation, so reverse the whole array.
 
-Find the last index(chang) which is just greater than nums[pivot]. After that swap pivot and
-chng, and reverse the array from pivot to last index.
+Find the first index(chng) which is greater than nums[pivot - 1]. After that swap nums[pivot - 1] and
+nums[chng], and reverse the array from pivot to last index.
 
 Proof
 
 When we want to compute the next permutation, we must “increase” the sequence as little as
-possible. Just like when we count up using numbers, we try to modify the rightmost elements
-and leave the left side unchanged.
+possible. Treating the array as number, we try to modify the rightmost items and leave the left
+side unchanged.
 
-If we don't find a pivot that means the array is decreasing order/ highest permutation and so
+If we don't find a pivot that means the array is in decreasing order/the highest permutation and so
 reverse.
 
-So there exists an item in the suffix greater than pivot. If we swap pivot with the smallest
-element in the suffix that is greater than pivot, then the prefix is minimized.
+So there exists an item in the suffix greater than (pivot - 1). If we swap (pivot - 1) with the smallest
+element in the suffix that is greater than (pivot - 1), then the prefix is maximised.
 
 Finally, we reverse the suffix in non-decreasing order because we increased the prefix,
-so we want to make the new suffix as low as possible
+so we want to make the new suffix as low as possible.
 */
 
-public class Next_Permutations {
+public class Next_Permutation {
     public void nextPermutation(int[] nums) {
         int pivot = 0, chng = 0;
 
@@ -50,5 +49,5 @@ public class Next_Permutations {
         A[j] = tmp;
     }
 
-    public void reverse(int[] A, int i, int j) {while(i < j) swap(A, i++, j--);}
+    public void reverse(int[] A, int l, int r) { while (l < r) swap(A, l++, r--); }
 }
