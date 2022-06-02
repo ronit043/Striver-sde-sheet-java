@@ -1,5 +1,21 @@
 package Day3;
 
+/*
+    TC : O(n), SC : O(1)
+The idea is to use a modification of Moore's voting algorithm to find candidate elements(atb most 2) that
+may occur more than N/3 times in the given array. We will use the fact that if we remove 3 distinct elements
+from the array, the elements which occurred more than N/3 times do not change.
+
+1. Iterate through the array
+    . If the current item(i) equals either of the candidates, then increase count of either item
+    . If either of their votes = 0, set either of the vote to 0 and current item to the majority
+    . Otherwise, decrease vote of both candidates. Doing so we'll remove 3 distinct elements from the array
+    which won't hamper the answer.
+
+2. Reset both votes to 0, iterate through the array and check whether the votes exceed (N / 3), if so
+add the items to the list and return.
+
+ */
 import java.util.ArrayList;
 import java.util.List;
 

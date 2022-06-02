@@ -1,36 +1,50 @@
 package Day3;
 
-public class Reverse_Pairs {
-    public int reversePairs(int[] nums) {
-        int[] temp = new int[nums.length];
-        return mergeSort(nums, 0, nums.length - 1, temp);
+/*
+    TC : O(n), SC : O(1)
+
+The idea is similar to merge sort, divide the array from the middle to two parts, say, left and right sub-array
+
+We write logic that counts the number of inversions when the arrays, left and right are merged.
+Have two indices. One of the indices will refer to the left and other to the right sub-array.
+
+We can say, there would be ('MID' - ‘LEFT_INDEX’) inversions, where ‘MID’ is the index from where the array has
+been split into two. We can say so because all the remaining elements in the left sub-array will be greater
+than right sub-array.
+ */
+
+public class Count_Inversions {
+    long getInversions(long[] arr, int n) {
+        return countInv(arr, 0, n - 1);
     }
 
-    public int mergeSort(int[] nums, int l, int r, int[] temp) {
-        int count = 0;
+    long countInv(long[] arr, int l, int r) {
+        long res = 0;
         if (l < r) {
             int m = (l + r) / 2;
-            count += mergeSort(nums, l, m, temp) + mergeSort(nums, m + 1, r, temp) +
-                    merge(nums, l, m + 1, r, temp);
+            res += countInv(arr, l, m) + countInv(arr, m + 1, r) +
+                    countNMerge(arr, l, m + 1, r);
         }
-        return count;
+        return res;
     }
 
-    public int merge(int[] nums, int l, int m, int r, int[] temp) {
-        int count = 0, x = m;
-        for (int i = l; i < m; i++) {
-            while ((x <= r) && (nums[i] > 2 * (long)nums[x])) x++;
-            count += x - m;
+    long countNMerge(long[] arr, int left, int mid, int right) {
+        int i = left, j = mid, k = 0;
+        long invCount = 0, temp[] = new long[(right - left + 1)];
+
+        while (i < mid && j <= right) {
+            if (arr[i] <= arr[j])
+                temp[k++] = arr[i++];
+            else {
+                temp[k++] = arr[j++];
+                invCount += (mid - i);
+            }
         }
 
-        int i = l, j = m, k = l;
-        while ((i <= m - 1) && (j <= r))
-            temp[k++] = (nums[i] <= nums[j]) ? nums[i++] : nums[j++];
+        while (i < mid) temp[k++] = arr[i++];
+        while (j <= right) temp[k++] = arr[j++];
+        for (i = left, k = 0; i <= right; i++, k++) arr[i] = temp[k];
 
-        while (i <= m - 1) temp[k++] = nums[i++];
-        while (j <= r) temp[k++] = nums[j++];
-        for (i = l; i <= r; i++) nums[i] = temp[i];
-
-        return count;
+        return invCount;
     }
 }

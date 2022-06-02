@@ -1,8 +1,7 @@
 package Day4;
 
 /*
-    TC : O(n)
-    SC : O(n)
+    TC : O(n), SC : O(n)
 
     There is ALWAYS only 1 pair of numbers that satisfy the condition of adding together to be the target value.
     We can assume that for all the numbers, there exists a pair such that xa + xb = target.

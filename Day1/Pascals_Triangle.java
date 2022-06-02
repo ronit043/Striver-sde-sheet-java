@@ -13,17 +13,18 @@ sum of value in (previous row, previous column).
 import java.util.*;
 
 public class Pascals_Triangle {
-    public List<List<Integer>> generate(int numRows) {
+    public List<List<Integer>> generate(int rows) {
         List<List<Integer>> ans = new ArrayList<>();
 
-        for (int row = 0; row < numRows; row++) {
+        for (int row = 0; row < rows; row++) {
             List<Integer> res = new ArrayList<>();
             for (int col = 0; col <= row; col++) {
                 if (col == 0 || col == row)
                     res.add(1);
                 else
                     res.add(
-                            ans.get(row - 1).get(col - 1) + ans.get(row - 1).get(col));
+                            ans.get(row - 1).get(col - 1) + ans.get(row - 1).get(col)
+                    );
             }
             ans.add(res);
         }
