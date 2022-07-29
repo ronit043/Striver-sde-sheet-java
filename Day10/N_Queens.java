@@ -4,42 +4,44 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/*    TC: O(n ^ 2), SC: O(n)
+Optimisation of isSafe function. The idea is not to check every item in right and left diagonal, instead use
+property of diagonals:
+
+1. The sum of i and j is constant and unique for each right diagonal, where i is the row of item and j
+is the column of item. 
+
+2. The difference of i and j is constant and unique for each left diagonal, where i and j are row and column
+of item respectively.
+ */
+
 public class N_Queens {
-    public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n];
-        for (char[] cs : board) Arrays.fill(cs, '.');
-        List<List<String>> al = new ArrayList<>();
-        dfs(board, 0, al);
-        return al;
-    }
+   public List<List<String>> solveNQueens(int n) {
+      List<List<String>> al = new ArrayList<>();
+      dfs(al, n, new boolean[n], new boolean[2 * n - 1], new boolean[2 * n - 1], new ArrayList<>());
+      return al;
+   }
 
-    public void dfs(char[][] board, int row, List<List<String>> res) {
-        if (row == board.length) {
-            List<String> possibleResult = resultBuilder(board);
-            res.add(possibleResult);
-            return;
-        }
+   void dfs(List<List<String>> al, int n, boolean[] cols, boolean[] diag45, boolean[] diag135, 
+            List<String> temp) {
+      if (temp.size() == n) {
+         al.add(new ArrayList<>(temp));
+         return;
+      }
+      int row = temp.size();
+      for (int col = 0; col < n; col++) {
+         if (cols[col] || diag45[row + col] || diag135[n - 1 - row + col]) continue;
 
-        for(int i = 0; i < board.length; i++) {
-            if(isSafe(board, i, row)) {
-                board[i][row] = 'Q';
-                dfs(board, row + 1, res);
-                board[i][row] = '.';
-            }
-        }
-    }
+         cols[col] = diag45[row + col] = diag135[n - 1 - row + col] = true;
+         StringBuilder sb = new StringBuilder();
+         sb.append(".".repeat(n));
+         sb.setCharAt(col, 'Q');
+         temp.add(sb.toString());
 
-    public boolean isSafe(char[][] board, int x, int y) {
-        for(int i = 0; i < board.length; i++) { for(int j = 0; j < y; j++)
-            if(board[i][j] == 'Q' && (x + j == y + i || x + y == i + j || x == i))
-                return false;
-        }
-        return true;
-    }
+         dfs(al, n, cols, diag45, diag135, temp);
 
-    public List<String> resultBuilder(char[][] matrix) {
-        List<String> list = new ArrayList<>();
-        for (char[] chars : matrix) list.add(new String(chars));
-        return list;
-    }
+         cols[col] = diag45[row + col] = diag135[n - 1 - row + col] = false;
+         temp.remove(temp.size() - 1);
+      }
+   }
 }

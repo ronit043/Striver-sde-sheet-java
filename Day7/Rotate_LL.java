@@ -3,36 +3,29 @@ package Day7;
 import Day5.ListNode;
 
 /*
-    TC : O(n)
-    SC : O(1)
+    TC : O(n), SC : O(1)
 
-    What we need to do in this problem is to find k-th element from the end, cut list in two parts
-    and put second part after the first one. Steps:
+What we need to do is, find k-th element from start, cut list in two parts and put second part after the
+first one. Steps:
 
-    Find n, length of our list.
-    Find element where we need to cut our list: it has number size - (k % size), but we need to cut previous
-    connection, so we stop one element earlier.
-    Finally, put new head as slow.next, make connection between head and fast of original list and remove connection
-    between slow and its next, return new head.
+    . Find size, length of list, assign it to 1. Move slow to last node.
+    . Link slow to head, converting it to a circular linked list.
+    . Find item to cut our list from, it's index: size - (k % size). We do k % size, to make k come in range
+    of 0 to size. We subtract (k % size) from size, to reach kth node from start. Move slow to it's next.
+    . Finally, put head as slow.next, and remove link between slow and its next, return head.
 */
-
 public class Rotate_LL {
-    public ListNode rotateRight(ListNode head, int k) {
-        if (head == null) return null;
-        int size = 1; // since we are already at head node
-        ListNode fast = head, slow = head;
+   public ListNode rotateRight(ListNode head, int k) {
+      if (head == null || head.next == null || k == 0) return head;
+      ListNode slow = head;
+      int size = 1;
 
-        while (fast.next != null) {
-            size++;
-            fast = fast.next;
-        }
+      for (; slow.next != null; size++) slow = slow.next;
+      slow.next = head;
+      for (int i = size - (k % size); i > 0; i--) slow = slow.next;
+      head = slow.next;
+      slow.next = null;
 
-        for (int i = size - k % size; i > 1; i--) slow = slow.next;
-
-        fast.next = head;
-        head = slow.next;
-        slow.next = null;
-
-        return head;
-    }
+      return head;
+   }
 }

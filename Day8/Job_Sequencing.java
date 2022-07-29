@@ -2,42 +2,40 @@ package Day8;
 
 import java.util.Arrays;
 
+/*      TC : O(n log n) + O(n ^ 2), SC : O(n)
+
+The strategy to maximize profit should be to pick up jobs that give higher profits. Hence, we should sort
+the jobs in descending order of profit. Make a boolean array of size n. Each array index is false by
+default as no jobs have been performed yet. For each job check if it can be performed on its last day.
+If it's possible, then mark that index with true, increment job count & add the profit to our answer.
+ */
 public class Job_Sequencing {
-    int[] JobScheduling(Job[] arr, int n) {
-        Arrays.sort(arr, (p1, p2) -> p2.profit - p1.profit);
-        int maxD = 0, profit = 0, jobs = 0, ans[] = new int[2];
+   int[] JobScheduling(Job[] arr, int n) {
+      int profit = 0, jobs = 0;
+      Arrays.sort(arr, (p1, p2) -> p2.profit - p1.profit);
+      boolean[] avail = new boolean[n];
 
-        for (Job i : arr) maxD = Math.max(maxD, i.deadline);
-        int[] timeline = new int[maxD + 1];
-
-        for (Job i : arr) {
-            if (timeline[i.deadline] == 0) {
-                profit += i.profit;
-                jobs++;
-                timeline[i.deadline] = 1;
-            } else {
-                int j = i.deadline;
-                while (j > 0) {
-                    if (timeline[j] == 0) {
-                        profit += i.profit;
-                        jobs++;
-                        timeline[j] = 1;
-                        break;
-                    }
-                    j--;
-                }
+      for (int i = 0; i < n; i++) {
+         for (int j = Math.min(n - 1, arr[i].deadline - 1); j >= 0; j--) {
+            if (!avail[j]) {
+               avail[j] = true;
+               jobs++;
+               profit += arr[i].profit;
+               break;
             }
-        }
-		ans[0] = jobs; ans[1] = profit;
-        return ans;
-    }
+         }
+      }
+
+      return new int[]{jobs, profit};
+   }
 }
 
 class Job {
-    int id, profit, deadline;
-    Job(int x, int y, int z){
-        id = x;
-        deadline = y;
-        profit = z;
-    }
+   int id, deadline, profit;
+
+   Job(int _id, int _deadline, int _profit) {
+      id = _id;
+      deadline = _deadline;
+      profit = _profit;
+   }
 }

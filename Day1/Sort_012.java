@@ -16,22 +16,22 @@ Solution - II
     TC : O(n), SC : O(1)
 */
 public class Sort_012 {
-    public void sortColors(int[] nums) {
-        int zero_idx = 0, two_idx = nums.length - 1, i = 0;
+   public void sortColors(int[] nums) {
+      int zero_idx = 0, two_idx = nums.length - 1, i = 0;
 
-        while (i <= two_idx) {
-            if (nums[i] == 0)
-                swap(nums, zero_idx++, i++);
-            else if (nums[i] == 2)
-                swap(nums, two_idx--, i);
-            else
-                i++;
-        }
-    }
+      while (i <= two_idx) {
+         if (nums[i] == 0)
+            swap(nums, zero_idx++, i++);
+         else if (nums[i] == 2)
+            swap(nums, two_idx--, i);
+         else
+            i++;
+      }
+   }
 
-    public void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
+   public void swap(int[] nums, int i, int j) {
+      int temp = nums[i];
+      nums[i] = nums[j];
+      nums[j] = temp;
+   }
 }

@@ -1,30 +1,27 @@
 package Day17;
+import java.util.ArrayList;
+import java.util.List;
 
-import java.util.LinkedList;
+/*    TC: O(n), SC: O(n)
+We traverse using a pre-order traversal. We calculate the maximum width of the level by taking max of
+current width and right_most – left_most + 1. Where idx is the right_most, and al.get(level) is left_most
+We assign an idx to every node as:
 
-public class Maximum_Width_B_Tree {
-    public int widthOfBinaryTree(TreeNode root) {
-        LinkedList<TreeNode> q = new LinkedList<>();
-        int ans = 1;
-        
-        if(root == null) return 0;
-        q.offer(root);
-        
-        while (!q.isEmpty()) {
-            int sz = q.size();
-            ans = Math.max(ans, q.peekLast().val - q.peekFirst().val + 1);
-            for (int i = 0; i < sz; i++) {
-                root = q.poll();
-                if (root.left != null) {
-                    root.left.val = root.val * 2;
-                    q.offer(root.left);
-                }
-                if (root.right != null) {
-                    root.right.val = root.val * 2 + 1;
-                    q.offer(root.right);
-                }
-            }
-        }
-        return ans;
-    }
+Left child gets: 2 * current col value
+Right child gets: 2 * current col value + 1
+ */
+class Maximum_Width_B_Tree {
+   public int widthOfBinaryTree(TreeNode root) {
+      int[] width = new int[1];
+      dfs(root, new ArrayList<>(), width, 1, 0);
+      return width[0];
+   }
+
+   void dfs(TreeNode node, List<Integer> al, int[] width, int idx, int level) {
+      if (node == null) return;
+      if (al.size() == level) al.add(idx);
+      width[0] = Math.max(width[0], idx - al.get(level) + 1);
+      dfs(node.left,  al, width, idx * 2, level + 1);
+      dfs(node.right, al, width, idx * 2 + 1, level + 1);
+   }
 }

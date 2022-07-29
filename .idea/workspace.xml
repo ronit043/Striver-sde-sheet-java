@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b799a126-869a-45aa-9267-92ba72ebdb91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Day10/Permutations_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10/Permutations_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day10/Word_Break_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day11/Peak_Index.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Implement_Min_Max_Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Kth_largest_element_in_stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Maximum_sum_combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Median_from_data_stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Merge_k_sorted_arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day12/Top_K_frequent_elements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day13/Implement_queue_using_stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day13/Implement_stack_using_queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day14/LFUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day16/Z_Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day17/Right_View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day19/Mirror_B_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day23/Clone_Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day23/Graph_BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day23/Graph_DFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day23/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/Reverse_Pairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8/Activity_Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day8/Minimum_number_of_coins_Greedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Striver-sde-sheet-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Buy_sell_stock_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Buy_sell_stock_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Max_sum_sub_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Max_sum_sub_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Next_Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Next_Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Pascals_Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Pascals_Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Set_Matrix_Zeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Set_Matrix_Zeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Sort_012.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Sort_012.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/M_Coloring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/M_Coloring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/N_Queens.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/N_Queens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/Rat_in_a_maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/Rat_in_a_maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/Sudoku_solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/Sudoku_solver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Aggressive_Cows.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Aggressive_Cows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Allocate_Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Allocate_Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Kth_element_of_2_sorted_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Kth_element_of_2_sorted_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Median_of_2_sorted_arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Median_of_2_sorted_arrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Median_of_row_wise_sorted_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Median_of_row_wise_sorted_matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Nth_Root_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Nth_Root_Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Search_in_Rotated_Sorted_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Search_in_Rotated_Sorted_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Single_element_in_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Single_element_in_sorted_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12/TrieNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day13/Next_greater_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day13/Next_greater_element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day13/Sort_a_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day13/Sort_a_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day13/Valid_parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day13/Valid_parenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Celebrity_Problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Celebrity_Problem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/LRU_Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/LRU_Cache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Largest_area_rectangle_in_histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Largest_area_rectangle_in_histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Min_Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Min_Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Next_smaller_element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Next_smaller_element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Online_Stock_Span.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Online_Stock_Span.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Rotten_Oranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Rotten_Oranges.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Sliding_Window_Maximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Sliding_Window_Maximum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/Integer_to_roman.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Integer_to_roman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/Longest_common_prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Longest_common_prefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/Longest_palindromic_substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Longest_palindromic_substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/Reverse_words_in_a_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Reverse_words_in_a_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/Roman_to_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Roman_to_integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/StrStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/StrStr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/String_To_Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/String_To_Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day16/Compare_version_numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day16/Compare_version_numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day16/Count_and_say.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day16/Count_and_say.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day16/Valid_Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day16/Valid_Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/B_Tree_Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/B_Tree_Inorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/B_Tree_Postorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/B_Tree_Postorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/B_Tree_Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/B_Tree_Preorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Bottom_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Bottom_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Left_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Left_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Maximum_Width_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Maximum_Width_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Morris_Inorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Morris_Inorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Morris_Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Morris_Preorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Pair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Root_to_Node_B_tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Root_to_Node_B_tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Top_View.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Top_View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Tree_Traversals_All.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Tree_Traversals_All.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day17/Vertical_Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day17/Vertical_Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Balanced_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Balanced_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Boundary_Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Boundary_Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Diameter_of_B_tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Diameter_of_B_tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Height_of_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Height_of_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/LCA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Level_Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Level_Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Same_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Same_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day18/Zig_Zag_traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day18/Zig_Zag_traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/B_Tree_Max_Path_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day19/B_Tree_Max_Path_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/B_Tree_from_Inorder_Postorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day19/B_Tree_from_Inorder_Postorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/B_Tree_from_inorder_preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day19/B_Tree_from_inorder_preorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/Check_B_Tree_is_mirror_of_itself.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/Children_Sum_Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day19/Children_Sum_Property.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/Flatten_B_Tree_to_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day19/Flatten_B_Tree_to_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day19/Symmetric_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day19/Symmetric_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Count_Inversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Count_Inversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Find_Duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Find_Duplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Merge_Overlapping_Subintervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Merge_Overlapping_Sub_Intervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Merge_two_arrays_without_extra_space.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Merge_two_arrays_without_extra_space.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Repeat_and_missing_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Repeat_and_missing_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Rotate_Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Rotate_Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/BST_From_Preorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/BST_From_Preorder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/Convert_sorted_array_to_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/Convert_sorted_array_to_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/LCA_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/LCA_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/Populate_next_right_pointers_of_tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/Populate_next_right_pointers_of_tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/Predecessor_Successor_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/Predecessor_Successor_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/Search_in_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/Search_in_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day20/Validate_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day20/Validate_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/BSTIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/BSTIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Ceil_in_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Ceil_in_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Floor_in_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Floor_in_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Kth_Largest_Element_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Kth_Largest_Element_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Kth_Smallest_Element_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Kth_Smallest_Element_BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Serialize_Deserialize_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Serialize_Deserialize_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Size_of_largest_BST_in_B_Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day21/Size_of_largest_BST_in_B_Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day21/Two_Sum_IV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day22/Distinct_Numbers_in_every_window_of_size_k.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day22/Distinct_Numbers_in_every_window_of_size_k.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day22/Flatten_B_Tree_to_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day22/Flatten_B_Tree_to_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day22/K_th_largest_element_in_array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day22/Kth_largest_element_in_stream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day22/Median_from_data_stream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Detect_cycle_DG_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Detect_cycle_DG_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Detect_cycle_UG_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Detect_cycle_UG_BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Detect_cycle_UG_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Detect_cycle_UG_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/GraphBFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/GraphDFS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Is_graph_Bipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Is_graph_Bipartite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Number_of_islands.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Number_of_islands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Topological_Sort_BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Topological_Sort_BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day23/Topological_Sort_DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day23/Topological_Sort_DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24/Dijkstra_Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day24/Dijkstra_Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day24/MST_Prim.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day24/MST_Prim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Edit_Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Edit_Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Knapsack_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Knapsack_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Longest_Common_Subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Longest_Common_Subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Longest_Increasing_Subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Longest_Increasing_Subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Matrix_Chain_Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Matrix_Chain_Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Maximum_Product_sub_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Maximum_Product_sub_array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day25/Maximum_sum_increasing_subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day25/Maximum_sum_increasing_subsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Coin_Change_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Coin_Change_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Egg_Drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Egg_Drop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Minimum_Sum_Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Minimum_Sum_Path.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Palindromic_Partioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Palindromic_Partioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Partition_Equal_Subset_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Partition_Equal_Subset_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Rod_cutting.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Rod_cutting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Subset_sum_equal_to_k.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Subset_sum_equal_to_k.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day26/Word_break.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day26/Word_break.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Count_Inversions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Grid_Unique_Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Grid_Unique_Paths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Majority_Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Majority_Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Majority_Element_ii.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Majority_Element_ii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Pow_x_n.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Pow_x_n.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Search_in_2d_matrix_ii.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Search_in_2d_matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Count_subarrays_with_given_xor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Count_sub_arrays_with_given_xor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Four_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Four_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Largest_sub_array_with_0_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Largest_sub_array_with_0_sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Longest_Consecutive_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Longest_Consecutive_Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Longest_Sub_string_without_repeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Longest_Sub_string_without_repeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day4/Two_Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Two_Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Add_2_numbers_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Add_2_numbers_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Delete_node_with_given_node.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Delete_node_with_given_node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Merge_2_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Merge_2_Sorted_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Middle_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Middle_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Remove_nth_node_from_end_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Remove_nth_node_from_end_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Reverse_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Reverse_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Flattening_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Flattening_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Intersection_point_of_y_shaped_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Intersection_point_of_y_shaped_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Linked_List_Cycle_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Linked_List_Cycle_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Linked_List_Cycle_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Linked_List_Cycle_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Palindrome_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Palindrome_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Reverse_LL_in_k_groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Reverse_LL_in_k_groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/Clone_LL_with_next_random_pointer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Copy_LL_with_random_pointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/Max_Consecutive_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Max_Consecutive_One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/Remove_Duplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Remove_Duplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/Rotate_LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Rotate_LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/Three_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Three_sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7/Trapping_Rainwater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day7/Trapping_Rainwater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Fractional_Knapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/Fractional_Knapsack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Job_Sequencing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/Job_Sequencing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Minimum_Platforms.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/Minimum_Platforms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/N_meetings_in_a_room.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day8/N_meetings_in_a_room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8/Number_of_coins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/Combination_Sum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Combination_Sum_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/Combination_Sum_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Combination_Sum_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/K_th_permutation_sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/K_th_permutation_sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/Palindrome_partioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Palindrome_partitioning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/Subset_Sums.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Subset_Sums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/Subsets_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Subsets_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Striver's_SDE_Sheet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day1/Buy_sell_stock_ii.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day1/Max_sum_subarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day1/Next_Permutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day1/Pascals_Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day1/Set_Matrix_Zeroes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day1/Sort_012.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day10/Permutations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Aggressive_Cows.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Allocate_Books.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Kth_element_of_2_sorted_arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Median_of_2_sorted_arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Median_of_row_wise_sorted_matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Nth_Root_Integer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day11/Search_in_Rotated_Sorted_Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day13/Next_greater_element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day13/Valid_parenthesis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day14/Celebrity_Problem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day14/Largest_area_rectangle_in_histogram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day14/Min_Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day14/Next_smaller_element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day14/Sliding_Window_Maximum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day15/String_Compression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/B_Tree_Inorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/B_Tree_Postorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/B_Tree_Preorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Bottom_View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Left_View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Maximum_Width_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Morris_Inorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Morris_Preorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Root_to_Node_B_tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Top_View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Tree_Traversals_All.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day17/Vertical_Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Balanced_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Boundary_Traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Diameter_of_B_tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Height_of_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/LCA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Level_Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Same_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day18/Zig_Zag_traversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day19/B_Tree_Max_Path_Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day19/B_Tree_from_Inorder_Postorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day19/B_Tree_from_inorder_preorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day19/Children_Sum_Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day19/Flatten_B_Tree_to_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day19/Symmetric_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day2/Count_Inversions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day2/Find_Duplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day2/Merge_Overlapping_Subintervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day2/Merge_two_arrays_without_extra_space.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day2/Rotate_Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day20/BST_From_Preorder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day20/Ceil_in_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day20/LCA_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day20/Predecessor_Successor_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day20/Search_in_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day20/Validate_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/BSTIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/Floor_in_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/Kth_Largest_Element_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/Kth_Smallest_Element_BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/NodeValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/Serialize_Deserialize_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/Size_of_largest_BST_in_B_Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day21/Two_Sum_IV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/Detect_cycle_UG_BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/Detect_cycle_UG_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/GraphBFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/GraphDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/Is_graph_Bipartite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/Number_of_islands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/Topological_Sort_BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day23/Topological_Sort_DFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day24/Dijkstra_Algorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day24/MST_Prim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day26/Coin_Change.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day26/MinSumPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day26/Partition_Equal_Subset_Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day26/Subset_sum_equal_to_k.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day3/Grid_Unique_Paths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day3/Majority_Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day3/Majority_Element_ii.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day3/Search_in_2d_matrix_ii.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day4/Four_Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day4/Largest_Subarray_with_0_sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day4/Longest_Consequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day4/Longest_Sub_string_without_repeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day4/Two_Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/Add_2_numbers_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/Delete_node_with_given_node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/Merge_2_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/Middle_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/Remove_nth_node_from_end_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day5/Reverse_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day6/Detect_Cycle_in_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day6/Flattening_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day6/Intersection_point_of_y_shaped_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day6/Palindrome_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day6/Reverse_LL_in_k_groups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day6/Rotate_LL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day7/Clone_LL_with_next_random_pointer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day7/Max_Consecutive_One.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day7/Remove_Duplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day7/Trapping_Rainwater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day8/Fractional_Knapsack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day8/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day8/Job.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day8/Job_Sequencing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day8/Minimum_Platforms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day9/Combination_Sum_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day9/Combination_Sum_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day9/Palindrome_partioning.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day9/Subset_Sums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Day9/Subsets_II.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Striver's_SDE_Sheet/Striver's_SDE_Sheet.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BIaFIa1VTnuYBhpQoPuJ8ymKzl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ronit/Desktop/Java/Striver-sde-sheet-java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Day14" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b799a126-869a-45aa-9267-92ba72ebdb91" name="Changes" comment="" />
+      <created>1656595947586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656595947586</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

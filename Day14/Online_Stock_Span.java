@@ -1,18 +1,18 @@
 package Day14;
 
+import java.awt.Point;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class Online_Stock_Span {
-    Deque<int[]> stq = new ArrayDeque<>();
+   Deque<Point> stq = new ArrayDeque<>();
+   public int next(int price) {
+      int res = 1;
+      //  Stack will have only those prices in which price is higher than current price.
+      while (!stq.isEmpty() && stq.peek().x <= price)
+         res += stq.pop().y;
+      stq.push(new Point(price, res));
 
-    public int next(int price) {
-        int res = 1;
-
-        while (!stq.isEmpty() && stq.peek()[0] <= price)
-            res += stq.pop()[1];
-        stq.push(new int[]{price, res});
-
-        return res;
-    }
+      return res;
+   }
 }

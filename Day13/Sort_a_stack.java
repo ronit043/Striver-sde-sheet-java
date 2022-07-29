@@ -1,26 +1,23 @@
 package Day13;
-
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Stack;
 
+/*    TC: O(n), SC: O(n)
+Use a min heap to store smallest items on top, pop the item from the stack and add it to the heap till
+the stack isn't empty.
+
+Now, poll the item from the heap and push it on the stack, the removal from the heap will be sorted, since
+it's a min heap. Now push the items one by one, till the heap isn't empty.
+ */
 class Sort_a_stack {
-    public Stack<Integer> sort(Stack<Integer> s) {
-        Stack<Integer> stq = new Stack<>();
-        stq.push(s.pop());
+   public void sortStack(Stack<Integer> s) {
+      Queue<Integer> pq = new PriorityQueue<>();
 
-        while (!s.empty()) {
-            if (s.peek() < stq.peek()) {
-                int t1 = s.pop(), t2 = stq.peek();
-                while (t2 > t1 && !stq.empty()) {
-                    s.push(t2);
-                    stq.pop();
-                    if (!stq.empty()) t2 = stq.peek();
-                }
-                stq.push(t1);
-            } 
-            else
-                stq.push(s.pop());
-        }
+      while (!s.isEmpty())
+         pq.add(s.pop());
 
-        return stq;
-    }
+      while (!pq.isEmpty())
+         s.push(pq.poll());
+   }
 }

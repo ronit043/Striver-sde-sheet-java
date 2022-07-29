@@ -1,4 +1,5 @@
 package Day3;
+
 /*
     TC : O(log(n)), SC : O(1)
 
@@ -11,16 +12,16 @@ If exp is odd, multiply ans with base or x. We then divide exp by 2 and multiply
 Return ans (if n >= 0) otherwise (1 / ans).
  */
 public class Pow_x_n {
-    public double myPow(double x, int n) {
-        long exp = Math.abs(n);
-        double ans = 1;
+   public double myPow(double x, int n) {
+      long exp = Math.abs(n);
+      double ans = 1;
 
-        while (exp > 0) {
-            if ((exp % 2) == 1) ans *= x;
-            exp /= 2;
-            x *= x;
-        }
+      while (exp > 0) {
+         if ((exp % 2) == 1) ans *= x;
+         exp /= 2;
+         x *= x;
+      }
 
-        return n >= 0 ? ans : (1 / ans);
-    }
+      return n >= 0 ? ans : (1 / ans);
+   }
 }

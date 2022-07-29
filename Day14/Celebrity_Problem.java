@@ -1,28 +1,31 @@
 package Day14;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+/*    TC: O(n), SC: O(1)
+If i knows j, that means i is not the celebrity because a celebrity doesn’t know anyone. If i doesn’t know j,
+that means j is not the celebrity because everyone knows the celebrity.
 
-public class Celebrity_Problem {
-    // Function to find if there's a celebrity in the party or not.
-    public int celebrity(int[][] M, int n) {
-        Deque<Integer> adq = new ArrayDeque<>();
-        for (int i = 0; i < n; i++) adq.push(i);
+Go through all the celebrities indexes i [0, n), if possible_celeb knows i, then current possible_celeb isn't
+the celebrity and set the current index as the celebrity.
 
-        while (adq.size() >= 2) {
-            int i = adq.pop(), j = adq.pop();
-            // i isn't a celebrity
-            if (M[i][j] == 1) adq.push(j);
-            // j isn't a celebrity
-            else adq.push(i);
-        }
-        int pot = adq.pop(); // When the stack has the last element, it's a potential celebrity
-        for (int i = 0; i < n; i++) {
-            if (i != pot) {
-                if (M[i][pot] == 0 || M[pot][i] == 1) return -1;
-            }
-        }
-        
-        return pot;
-    }
+At last check, if possible_celeb is a celebrity, by passing possible_celeb and n in the isCeleb method.
+ */
+class Celebrity_Problem {
+   public int findCelebrity(int n) {
+      int possible_celeb = 0;
+
+      for (int i = 0; i < n; i++)
+         if (knows(possible_celeb, i)) possible_celeb = i;
+
+      return isCeleb(possible_celeb, n) ? possible_celeb : -1;
+   }
+
+   boolean isCeleb(int possible_celeb, int n) {
+      for (int j = 0; j < n; j++) {
+         if (possible_celeb == j) continue;
+         if (knows(possible_celeb, j) || !knows(j, possible_celeb)) return false;
+      }
+      return true;
+   }
+
+   boolean knows(int i, int celeb) { return false; }
 }
