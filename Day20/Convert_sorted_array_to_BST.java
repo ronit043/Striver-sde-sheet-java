@@ -9,7 +9,7 @@ One half from [left...mid - 1] for building the left subtree.
 Other half from [mid + 1...right] for building the right subtree.
 Repeat the recursion until we've completed build BST from all elements in nums array.
  */
-public class Convert_sorted_array_to_BST {
+class Convert_sorted_array_to_BST {
    TreeNode sortedArrayToBST(int[] nums) { return dfs(nums, 0, nums.length - 1); }
 
    public TreeNode dfs(int[] nums, int l, int r) {

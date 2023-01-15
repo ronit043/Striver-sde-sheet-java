@@ -13,7 +13,7 @@ int r = max(dfs(root.right, sum), 0);
 
 Why? This is because I have the option to discard the negative value.
  */
-public class B_Tree_Max_Path_Sum {
+class B_Tree_Max_Path_Sum {
    public int maxPathSum(TreeNode root) {
       int[] sum = new int[1];
       sum[0] = Integer.MIN_VALUE;

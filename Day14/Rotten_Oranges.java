@@ -22,7 +22,7 @@ After it becomes empty, We will check whether the total number of oranges initia
 count of oranges. If yes, we will return the total time taken, else will return -1 because some fresh oranges
 are still left and can’t be made rotten.
  */
-public class Rotten_Oranges {
+class Rotten_Oranges {
    public int orangesRotting(int[][] grid) {
       int[] dx = {0, 0, 1, -1}, dy = {1, -1, 0, 0};
       int rows = grid.length, cols = grid[0].length;

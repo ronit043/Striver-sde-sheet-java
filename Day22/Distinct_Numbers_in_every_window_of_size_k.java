@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Distinct_Numbers_in_every_window_of_size_k {
+class Distinct_Numbers_in_every_window_of_size_k {
    public ArrayList<Integer> dNums(ArrayList<Integer> A, int B) {
       ArrayList<Integer> al = new ArrayList<>();
       if (B > A.size()) return al;

@@ -1,6 +1,6 @@
 package Day12;
 
-public class Implement_Min_Max_Heap {
+class Implement_Min_Max_Heap {
    // Max heap from Array
    void buildHeap(int[] arr, int n) {
       // Index of last non-leaf node  [parent of last leaf node]

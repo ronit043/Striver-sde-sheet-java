@@ -5,7 +5,7 @@ Remember to take advantage of the property of BSTs, which is, node.left.val < no
 Moreover, both p and q will be the descendants of the root of the subtree that contains
 both of them. And the node with the largest depth is the lowest common ancestor.
  */
-public class LCA_BST {
+class LCA_BST {
    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
       TreeNode lca = root;
 

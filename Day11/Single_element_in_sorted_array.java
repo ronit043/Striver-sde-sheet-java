@@ -16,7 +16,7 @@ in the left half otherwise in the right half.
 
 Finally, l will be on next of right half so return item at l
  */
-public class Single_element_in_sorted_array {
+class Single_element_in_sorted_array {
    public int singleNonDuplicate(int[] nums) {
       int l = 0, r = nums.length - 2;
 

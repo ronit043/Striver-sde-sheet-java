@@ -1,6 +1,6 @@
 package Day15;
 
-public class Longest_palindromic_substring {
+class Longest_palindromic_substring {
    public static String longestPalindrome(String s) {
       int n = s.length(), start = 0, maxLen = 0;
       boolean[][] dp = new boolean[n][n];

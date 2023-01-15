@@ -2,7 +2,7 @@ package Day21;
 
 import Day17.TreeNode;
 
-public class Serialize_Deserialize_B_Tree {
+class Serialize_Deserialize_B_Tree {
    // Encodes a tree to a single string.
    public String serialize(TreeNode root) {
       StringBuilder sb = new StringBuilder();

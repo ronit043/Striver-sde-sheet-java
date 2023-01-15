@@ -13,7 +13,7 @@ number in the range [l, r]. Then we use binary search on [l, r], find the "mid" 
 that are <= “mid” using the upper_bound(), if #items >= required count + 1, the median must be
 <= the selected number, else the median must be > the selected number.
  */
-public class Median_of_row_wise_sorted_matrix {
+class Median_of_row_wise_sorted_matrix {
    public int findMedian(List<List<Integer>> matrix) {
       // Since, 1 <= matrix[i][j] <= 10 ^ 9, set the "l" and "r" value accordingly.
       int l = 1, r = (int) 1e9, ans = 0,

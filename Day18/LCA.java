@@ -8,7 +8,7 @@ the farthest common ancestor from the root node will be present in the left subt
 3. Similarly, if p and q exist in the right subtree, then the LCA must be present in the right subtree.
 4. If both p and q are present in the different subtrees, then the LCA will be the root node.
  */
-public class LCA {
+class LCA {
    public TreeNode lca(TreeNode root, TreeNode p, TreeNode q) {
       // If root is null or root is p or q(given), return root as it'll be the LCA
       if (root == null || root == p || root == q) return root;

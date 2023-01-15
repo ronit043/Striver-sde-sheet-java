@@ -12,7 +12,7 @@ intuition, that if we know the result of left and right child then we can calcul
 
 Base Case is when root == null, so we need to return 0;
  */
-public class Height_of_B_Tree {
+class Height_of_B_Tree {
    public int height(TreeNode root) {
       if (root == null) return 0;
       int l = height(root.left), r = height(root.right);

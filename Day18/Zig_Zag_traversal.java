@@ -8,7 +8,7 @@ for odd levels we need to go from right to left, hence we maintain a level_num v
 
 Once a level is covered we increase the value of level_num and add the node values in list to 2d list.
  */
-public class Zig_Zag_traversal {
+class Zig_Zag_traversal {
    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
       Queue<TreeNode> q = new LinkedList<>();
       List<List<Integer>> ans = new ArrayList<>();

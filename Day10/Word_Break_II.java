@@ -12,7 +12,7 @@ whether the right portion is separable or not, we need the same logic.
 Base case:
 If all substrings have been extracted, original string becomes empty so add the answer string to the list.
 */
-public class Word_Break_II {
+class Word_Break_II {
    public List<String> wordBreak(String s, List<String> wordDict) {
       List<String> res = new ArrayList<>();
       dfs(wordDict, res, s, "");

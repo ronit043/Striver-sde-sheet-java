@@ -1,11 +1,10 @@
 package Day26;
 
-public class Rod_cutting {
+class Rod_cutting {
    public int cutRod(int[] prices, int rodLen) {
       int[][] dp = new int[rodLen][rodLen + 1];
 
-      for (int len = 0; len <= rodLen; len++)
-         dp[0][len] = len * prices[0];
+      for (int len = 0; len <= rodLen; len++) dp[0][len] = len * prices[0];
 
       for (int idx = 1; idx < rodLen; idx++) {
          for (int len = 0; len <= rodLen; len++) {

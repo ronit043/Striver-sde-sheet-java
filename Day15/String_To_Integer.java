@@ -14,7 +14,7 @@ If it is violated, then return INT_MAX or INT_MIN as appropriate.
 
 Return the final result with its respective sign, sign * result.
  */
-public class String_To_Integer {
+class String_To_Integer {
    public int myAtoi(String s) {
       int i = 0, sign = 1;
       long base = 0L;

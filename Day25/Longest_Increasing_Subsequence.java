@@ -1,8 +1,7 @@
 package Day25;
-
 import java.util.Arrays;
 
-public class Longest_Increasing_Subsequence {
+class Longest_Increasing_Subsequence {
    public int lengthOfLIS(int[] nums) {
       int n = nums.length, ans = 1;
       int[] dp = new int[n];

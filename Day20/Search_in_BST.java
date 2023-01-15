@@ -6,7 +6,7 @@ root value if it’s equal we are done with the search if it’s smaller we know
 left subtree because in a BST all the items in the left subtree are smaller and all the items
 in the right subtree are larger.
  */
-public class Search_in_BST {
+class Search_in_BST {
    public TreeNode searchBST(TreeNode root, int x) {
       while (root != null) {
          if (root.val > x) root = root.left;

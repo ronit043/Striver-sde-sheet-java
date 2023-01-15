@@ -11,7 +11,7 @@ Else we're in decreasing part of array. This maybe the ans, but look at left.
 
 At last l will be at the peak index so return l.
  */
-public class Peak_Index {
+class Peak_Index {
    public int peakIndexInMountainArray(int[] nums) {
       int l = 0, r = nums.length - 1 ;
 

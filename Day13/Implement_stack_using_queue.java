@@ -1,7 +1,7 @@
 package Day13;
 import java.util.*;
 
-public class Implement_stack_using_queue {
+class Implement_stack_using_queue {
       Deque<Integer> adq = new ArrayDeque<>();
 
       // Push item x onto stack.

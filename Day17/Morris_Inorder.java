@@ -13,7 +13,7 @@ Step 2: While current is not NULL,
        1. In current's left subtree, make current the right child of the rightmost node
        2. Go to this left child, i.e., current = current.left
  */
-public class Morris_Inorder {
+class Morris_Inorder {
    public List<Integer> inorderTraversal(TreeNode root) {
       List<Integer> res = new ArrayList<>();
       TreeNode curr = root, pre;

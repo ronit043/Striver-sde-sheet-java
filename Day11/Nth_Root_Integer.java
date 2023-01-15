@@ -10,13 +10,13 @@ Consider the equation x = n√m and solving for m, we get m = (x ^ n)
 So, multiply mid n times, and if mid < m, then we move left boundary to mid, else move right boundary to mid.
 After the loop breaks we will have our answer as low or high.
  */
-public class Nth_Root_Integer {
+class Nth_Root_Integer {
    public double findNthRootOfM(int n, long m) {
       double l = 1, r = m, eps = 1e-6;
 
       while ((r - l) > eps) {
          double mid = (l + r) / 2.0;
-         if (check(mid, m, n))
+         if (check(mid, n, m))
             l = mid;
          else
             r = mid;
@@ -25,7 +25,7 @@ public class Nth_Root_Integer {
       return l;
    }
 
-   boolean check(double number, long res, int n) {
+   boolean check(double number, int n, long res) {
       double ans = 1.0;
       for (int i = 1; i <= n; i++) ans *= number;
       return ans <= res;

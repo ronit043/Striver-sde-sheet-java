@@ -1,7 +1,7 @@
 package Day17;
 import java.util.*;
 
-public class Root_to_Node_B_tree {
+class Root_to_Node_B_tree {
    public List<Integer> solve(TreeNode root, int target) {
       List<Integer> res = new ArrayList<>();
       dfs(res, root, target);
@@ -9,10 +9,8 @@ public class Root_to_Node_B_tree {
    }
 
    void dfs(List<Integer> ans, TreeNode node, int key) {
-      // If root is null, there is no path
-      if (node == null) return;
-      // Add the node's val to answer list
-      ans.add(node.val);
+      if (node == null) return; // If root is null, there is no path
+      ans.add(node.val); // Add the node's val to answer list
 
       // Go to the left-subtree,
       dfs(ans, node.left, key);

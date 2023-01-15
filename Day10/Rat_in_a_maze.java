@@ -16,7 +16,7 @@ Assuming the move is possible, mark the cell as visited(0) then move to that cel
 and again start looking for the valid move until the last index (i.e. (m - 1, n - 1)) is reached. Also set
 the cell value as unvisited (i.e. back-tracking) to explore new unvisited nodes.
  */
-public class Rat_in_a_maze {
+class Rat_in_a_maze {
    public List<String> findPath(int[][] maze, int n) {
       List<String> ans = new ArrayList<>();
       if (maze[0][0] == 0 || maze[n - 1][n - 1] == 0) return ans;

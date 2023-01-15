@@ -8,7 +8,7 @@ If the node value >= key, then we store the value of the node in ‘ceil’ and 
 If the node value < key, then we traverse the right subtree.
 Finally, return ‘ceil’ as our answer.
  */
-public class Ceil_in_BST {
+class Ceil_in_BST {
    public int findCeil(TreeNode root, int x) {
       int ceil = -1;
 

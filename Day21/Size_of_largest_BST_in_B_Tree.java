@@ -2,7 +2,7 @@ package Day21;
 
 import Day17.TreeNode;
 
-public class Size_of_largest_BST_in_B_Tree {
+class Size_of_largest_BST_in_B_Tree {
    public int maxSumBST(TreeNode root) {
       return postOrder(root).maxS;
    }

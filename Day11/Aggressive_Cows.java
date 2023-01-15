@@ -13,7 +13,7 @@ We need to define a check() function that checks if a distance x is possible bet
 use a greedy approach here by placing cows at the leftmost possible stalls such that they are at least x
 distance away from the last-placed cow.
  */
-public class Aggressive_Cows {
+class Aggressive_Cows {
    public int maximiseDistance(int cows, int[] stalls) {
       Arrays.sort(stalls);
       // l is the least possible distance and r is the max possible distance

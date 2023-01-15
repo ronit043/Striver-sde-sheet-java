@@ -1,9 +1,8 @@
 package Day23;
-
 import java.util.ArrayDeque;
 import java.util.Queue;
 
-public class Detect_cycle_DG_DFS {
+class Detect_cycle_DG_DFS {
    public boolean canFinish(int numCourses, int[][] prerequisites) {
       int[] indegree = new int[numCourses];
       Queue<Integer> q = new ArrayDeque<>();

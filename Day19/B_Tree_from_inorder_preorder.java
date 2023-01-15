@@ -3,7 +3,7 @@ import Day17.TreeNode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class B_Tree_from_inorder_preorder {
+class B_Tree_from_inorder_preorder {
    public TreeNode buildTree(int[] preorder, int[] inorder) {
       Map<Integer, Integer> inMap = new HashMap<>();
       for (int i = 0; i < inorder.length; i++) inMap.put(inorder[i], i);

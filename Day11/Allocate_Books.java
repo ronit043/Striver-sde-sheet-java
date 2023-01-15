@@ -12,7 +12,7 @@ We need to check if we can assign pages to all students in a way that the curren
 To do this, we sequentially assign pages to every student. Lastly we check the current #assigned_students
 doesn’t exceed the maximum #students.
  */
-public class Allocate_Books {
+class Allocate_Books {
    public int books(int[] books, int max_students) {
       if (max_students > books.length) return -1;
       int l = Arrays.stream(books).max().orElseThrow(), r = Arrays.stream(books).sum(), ans = -1;

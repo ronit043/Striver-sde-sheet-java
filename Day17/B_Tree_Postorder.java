@@ -1,11 +1,11 @@
 package Day17;
 import java.util.*;
 
-public class B_Tree_Postorder {
 /*    TC: O(n), SC: O(n)
 Recursion is the simple approach and mimics the concept of left -> right -> root for postorder traversal
 We need to pass the list as a parameter, so we can add the values of the visited nodes to it.
 */
+class B_Tree_Postorder {
    public List<Integer> postorderTraversal(TreeNode root) {
       List<Integer> ans = new ArrayList<>();
       dfs(root, ans);
@@ -18,8 +18,8 @@ We need to pass the list as a parameter, so we can add the values of the visited
       dfs(root.right, al);
       al.add(root.val);
    }
-
-// Iterative
+}
+// Iterative; TC: O(n), SC: O(n)
 
 /*
 1. Create an empty stack, Push root node to the stack.
@@ -46,4 +46,3 @@ and we can add the right node's value in the 0 index of the list.
 //
 //        return al;
 //    }
-}

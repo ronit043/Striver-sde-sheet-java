@@ -5,7 +5,7 @@ import Day17.TreeNode;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class BSTIterator {
+class BSTIterator {
    Deque<TreeNode> stq = new ArrayDeque<>();
    // reverse = true -> before
    // reverse = false -> next

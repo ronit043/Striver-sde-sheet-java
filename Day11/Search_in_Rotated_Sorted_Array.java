@@ -16,7 +16,7 @@ If the right sub-array is monotonically increasing, check if target lies in the 
 
 Return -1 if never found.
  */
-public class Search_in_Rotated_Sorted_Array {
+class Search_in_Rotated_Sorted_Array {
    public int search(int[] nums, int target) {
       int l = 0, r = nums.length - 1;
 

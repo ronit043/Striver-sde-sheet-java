@@ -4,7 +4,7 @@ import java.awt.Point;
 import java.util.List;
 import java.util.PriorityQueue;
 
-public class Dijkstra_Algorithm {
+class Dijkstra_Algorithm {
    static int[] dijkstra(int V, List<List<List<Integer>>> adj, int S) {
       boolean[] vis = new boolean[V];
       int[] res = new int[V];

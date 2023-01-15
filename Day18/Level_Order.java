@@ -1,8 +1,5 @@
 package Day18;
-import java.util.ArrayDeque;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Deque;
+import java.util.*;
 import Day17.TreeNode;
 
 /*    TC: O(n), SC: O(n)
@@ -12,24 +9,24 @@ current level and push into the queue so that when we will be complete with the 
 start exploring nodes of the next level from the queue.  We will keep doing until our queue does not become
 empty and store all the nodes into “output”.
  */
-public class Level_Order {
+class Level_Order {
    public List<List<Integer>> levelOrder(TreeNode root) {
-      Deque<TreeNode> q = new ArrayDeque<>();
+      Queue<TreeNode> q = new ArrayDeque<>();
       List<List<Integer>> ans = new ArrayList<>();
       if (root == null) return ans;
 
       q.add(root);
       while (!q.isEmpty()) {
          int level_size = q.size();
-         List<Integer> layer_vals = new ArrayList<>();
+         List<Integer> layer = new ArrayList<>();
          while (level_size-- > 0) {
-            TreeNode temp = q.poll();
-            layer_vals.add(temp.val);
+            TreeNode node = q.poll();
+            layer.add(node.val);
 
-            if (temp.left != null) q.add(temp.left);
-            if (temp.right != null) q.add(temp.right);
+            if (node.left != null) q.add(node.left);
+            if (node.right != null) q.add(node.right);
          }
-         ans.add(layer_vals);
+         ans.add(layer);
       }
 
       return ans;

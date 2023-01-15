@@ -1,7 +1,7 @@
 package Day23;
 import java.util.*;
 
-// TC O(n + e); SC O(3n + e)
+// TC O(n + e); SC O(n)
 class Graph_DFS {
    void dfs(int node, boolean[] vis, List<List<Integer>> adj, List<Integer> ans) {
       ans.add(node);

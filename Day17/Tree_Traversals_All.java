@@ -1,7 +1,7 @@
 package Day17;
 import java.util.*;
 
-public class Tree_Traversals_All {
+class Tree_Traversals_All {
    public static List<List<Integer>> getTreeTraversal(TreeNode root) {
       List<List<Integer>> ans = new ArrayList<>();
       List<Integer> pre = new ArrayList<>(), in = new ArrayList<>(), post = new ArrayList<>();

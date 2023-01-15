@@ -2,23 +2,23 @@ package Day17;
 import java.util.*;
 
 //    TC: O(n), SC: O(n)
-public class B_Tree_Inorder {
-   public List<Integer> inorderTraversal(TreeNode root) {
-      List<Integer> res = new ArrayList<>();
-      dfs(root, res);
-      return res;
-   }
+class B_Tree_Inorder {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        dfs(root, res);
+        return res;
+    }
 
-   void dfs(TreeNode root, List<Integer> res) {
-      if (root == null) return;
-      dfs(root.left, res);
-      res.add(root.val);
-      dfs(root.right, res);
-   }
-
-   // Iterative, linear space
-   // TC: O(n), SC: O(n)
-   // This method is similar to first method, expect this time we're using a stack
+    void dfs(TreeNode root, List<Integer> res) {
+        if (root == null) return;
+        dfs(root.left, res);
+        res.add(root.val);
+        dfs(root.right, res);
+    }
+}
+// Iterative, linear space
+// TC: O(n), SC: O(n)
+// This method is similar to first method, expect this time we're using a stack
 
    /* public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
@@ -41,4 +41,3 @@ public class B_Tree_Inorder {
 
         return ans;
    }*/
-}

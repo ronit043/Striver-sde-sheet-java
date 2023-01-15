@@ -15,7 +15,7 @@ Now, check if partitioning is valid. This is only when l1 <= r2 and l2 <= r1. If
 If partitioning is invalid, move ranges. When l1 > r2, move left and perform the above operations again.
 When l2 > r2, move right and perform the above operations.
  */
-public class Median_of_2_sorted_arrays {
+class Median_of_2_sorted_arrays {
    double findMedianSortedArrays(int[] A, int[] B) {
       int A_size = A.length, B_size = B.length;
       if (A_size > B_size) return findMedianSortedArrays(B, A); // Swapping to make A smaller

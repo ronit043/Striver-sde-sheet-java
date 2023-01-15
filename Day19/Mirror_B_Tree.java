@@ -1,7 +1,7 @@
 package Day19;
 import Day17.TreeNode;
 
-public class Mirror_B_Tree {
+class Mirror_B_Tree {
    void mirror(TreeNode root) {
       if (root == null) return;
 

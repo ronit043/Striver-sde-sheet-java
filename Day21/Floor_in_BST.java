@@ -8,7 +8,7 @@ If the node value <= key, then we store the value of the node in ‘floor’ and
 If the node value > key, then we traverse the left subtree.
 Finally, return ‘floor’ as our answer.
  */
-public class Floor_in_BST {
+class Floor_in_BST {
    public static int floorInBST(TreeNode root, int x) {
       int floor = -1;
 

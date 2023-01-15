@@ -8,7 +8,7 @@ to the left of the current node are visited before the nodes which are on the ri
 Hence, for any level, we will reach the leftmost node before we reach any other node in the same level, and
 we only need to include the leftmost node of each level in our answer.
  */
-public class Left_View {
+class Left_View {
    public List<Integer> getLeftView(TreeNode root) {
       List<Integer> ans = new ArrayList<>();
       dfs(ans, root, 0);

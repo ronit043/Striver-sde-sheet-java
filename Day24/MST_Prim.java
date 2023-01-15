@@ -4,7 +4,7 @@ import java.awt.Point;
 import java.util.List;
 import java.util.PriorityQueue;
 
-public class MST_Prim {
+class MST_Prim {
    static int spanningTree(int V, List<List<List<Integer>>> adj) {
       boolean[] vis = new boolean[V];
       return bfs(adj, vis);

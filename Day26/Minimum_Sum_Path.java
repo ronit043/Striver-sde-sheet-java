@@ -1,6 +1,6 @@
 package Day26;
 
-public class Minimum_Sum_Path {
+class Minimum_Sum_Path {
    public int minSumPath(int[][] grid) {
       int row = grid.length, col = grid[0].length;
       int[][] dp = new int[row][col];
@@ -9,12 +9,9 @@ public class Minimum_Sum_Path {
          for (int j = 0; j < col; j++) {
             if (i == 0 && j == 0) dp[i][j] = grid[i][j];
             else {
-               int up = grid[i][j];
+               int up = grid[i][j], left = grid[i][j];
                up += (i > 0) ? dp[i - 1][j] : (int) (1e9);
-
-               int left = grid[i][j];
                left += (j > 0) ? dp[i][j - 1] : (int) (1e9);
-
                dp[i][j] = Math.min(up, left);
             }
          }

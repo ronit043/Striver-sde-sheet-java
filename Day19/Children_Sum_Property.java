@@ -6,7 +6,7 @@ We'll find the difference between the root node and the child nodes. If the diff
 will add the difference to one of the child node and call this recursive function for both left and right
 child nodes and finally update the value of the root node equal to the sum of the left and right child node.
  */
-public class Children_Sum_Property {
+class Children_Sum_Property {
    public static void changeTree(TreeNode root) {
       // Base Cases.
       if (root == null || (root.left == null && root.right == null)) return;

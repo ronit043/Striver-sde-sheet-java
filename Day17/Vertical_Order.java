@@ -18,29 +18,29 @@ If the left subtree exists:
 Increase the row value, decrease the column value and add the node as an object of node class in the queue.
 
 If the right subtree exists
-Decrease the row value, increase the column value and add the node as an object of node class in the queue.
+Increase the row value, increase the column value and add the node as an object of node class in the queue.
 
 Once the PriorityQueue is empty, we add all the lists in the 2d list and return it.
 */
-public class Vertical_Order {
+class Vertical_Order {
    public List<List<Integer>> verticalTraversal(TreeNode root) {
-      Queue<Node> q = new PriorityQueue<>((a, b) ->
+      Queue<Node> pq = new PriorityQueue<>((a, b) ->
          a.row == b.row ? a.node.val - b.node.val : a.row - b.row
       );
       Map<Integer, List<Integer>> tm = new TreeMap<>();
 
-      q.add(new Node(root, 0, 0));
-      while (!q.isEmpty()) {
-         Node curr = q.poll();
+      pq.add(new Node(root, 0, 0));
+      while (!pq.isEmpty()) {
+         Node curr = pq.poll();
          List<Integer> al = tm.getOrDefault(curr.col, new ArrayList<>());
          al.add(curr.node.val);
          tm.put(curr.col, al);
 
          if (curr.node.left != null)
-            q.add(new Node(curr.node.left, curr.row + 1, curr.col  - 1));
+            pq.add(new Node(curr.node.left, curr.row + 1, curr.col  - 1));
 
          if (curr.node.right != null)
-            q.add(new Node(curr.node.right, curr.row + 1, curr.col + 1));
+            pq.add(new Node(curr.node.right, curr.row + 1, curr.col + 1));
       }
 
       return new ArrayList<>(tm.values());

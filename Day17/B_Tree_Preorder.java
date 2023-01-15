@@ -1,12 +1,11 @@
 package Day17;
 import java.util.*;
 
-public class B_Tree_Preorder {
-   
 /*    TC: O(n), SC: O(n)
 Recursion is the simple approach and mimics the concept of root -> left -> right for preorder traversal
 We need to pass the list as a parameter, so we can add the values of the visited nodes to it.
 */
+class B_Tree_Preorder {
    public List<Integer> preorderTraversal(TreeNode root) {
       List<Integer> ans = new ArrayList<>();
       dfs(root, ans);
@@ -19,7 +18,7 @@ We need to pass the list as a parameter, so we can add the values of the visited
       dfs(root.left, al);
       dfs(root.right, al);
    }
-
+}
 // Iterative
 
 /*
@@ -31,20 +30,18 @@ We need to pass the list as a parameter, so we can add the values of the visited
 
 So, when we pop the stack, We get the left subtree first before the right subtree since it's pushed last
 */
-   // public List<Integer> preorderTraversal(TreeNode root) {
-   //     List<Integer> ans = new ArrayList<>();
-   //     Deque<TreeNode> stq = new ArrayDeque<>();
-   //     if (root == null) return ans;
+// public List<Integer> preorderTraversal(TreeNode root) {
+//     List<Integer> ans = new ArrayList<>();
+//     Deque<TreeNode> stq = new ArrayDeque<>();
+//     if (root == null) return ans;
 
-   //     stq.push(root);
-   //     while (!stq.isEmpty()) {
-   //         root = stq.pop();
-   //         ans.add(root.val);
-   //         if (root.right != null) stq.push(root.right);
-   //         if (root.left != null) stq.push(root.left);
-   //     }
+//     stq.push(root);
+//     while (!stq.isEmpty()) {
+//         root = stq.pop();
+//         ans.add(root.val);
+//         if (root.right != null) stq.push(root.right);
+//         if (root.left != null) stq.push(root.left);
+//     }
 
-   //     return ans;
-   // }
-
-}
+//     return ans;
+// }

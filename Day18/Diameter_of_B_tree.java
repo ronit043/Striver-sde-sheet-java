@@ -8,7 +8,7 @@ In the Post Order of every node, calculate diameter and height of the current no
 Update diameter to store the maximum diameter possible.
 Return height of current node to the previous recursive call.
  */
-public class Diameter_of_B_tree {
+class Diameter_of_B_tree {
    public int diameterOfBinaryTree(TreeNode root) {
       int[] diameter = new int[1];
       dfs(root, diameter);

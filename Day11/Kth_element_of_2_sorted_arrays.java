@@ -11,7 +11,7 @@ middle of array1 and the remaining items from the second array. Then using the c
 check if the left half is valid. If valid, print the maximum of both array’s last item. If not, move the
 range towards the right if l2 > r1, else move the range towards the left if l1 > r2.
  */
-public class Kth_element_of_2_sorted_arrays {
+class Kth_element_of_2_sorted_arrays {
    public long kthElement(int[] a, int[] b, int n, int m, int k) {
       if (n > m) return kthElement(b, a, m, n, k);
       int l = Math.max(0, k - m), r = Math.min(n, k);

@@ -1,7 +1,7 @@
 package Day13;
 import java.util.Stack;
 
-public class Implement_queue_using_stacks {
+class Implement_queue_using_stacks {
    Stack<Integer> s1 = new Stack<>(), s2 = new Stack<>();
 
    // Push item x to the back of queue.

@@ -1,6 +1,5 @@
 package Day12;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 /*    TC: O(log(N)), SC: O(N)
 The idea is to divide numbers into 2 balanced halves, one half low stores low numbers, the other half high
@@ -12,19 +11,16 @@ We use minHeap to store a half of high numbers, top of the minHeap is the lowest
 
 When adding a new number num into our Median finder:
 Firstly, add num to the maxHeap, now maxHeap may contain the big element (which should belong to minHeap).
-So we need to balance, by removing the highest element from maxHeap, and offer it to minHeap.
+So we need to balance, by removing the highest element from maxHeap, and add it to minHeap.
 Now, the minHeap might hold more elements than maxHeap, in that case, we need to balance the size,
-by removing the lowest element from minHeap and offer it back to maxHeap.
+by removing the lowest element from minHeap and add it back to maxHeap.
 
 When doing findMedian():
 If maxHeap.size > minHeap.size return top of the maxHeap, which is the highest number among low numbers.
-Else if maxHeap.size == minHeap return the (maxHeap.top() + minHeap.top()) / 2.
+Else if maxHeap.size == minHeap.size return the (maxHeap.top() + minHeap.top()) / 2.
  */
-public class Median_from_data_stream {
-   Queue<Integer> minHeap = new PriorityQueue<>(),
-                  maxHeap = new PriorityQueue<>((a, b) -> b - a);
-
-   public Median_from_data_stream() { }
+class Median_from_data_stream {
+   Queue<Integer> minHeap = new PriorityQueue<>(), maxHeap = new PriorityQueue<>((a, b) -> b - a);
 
    public void addNum(int num) {
       maxHeap.add(num);

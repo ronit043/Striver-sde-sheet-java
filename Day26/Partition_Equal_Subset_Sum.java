@@ -2,7 +2,7 @@ package Day26;
 
 import java.util.Arrays;
 
-public class Partition_Equal_Subset_Sum {
+class Partition_Equal_Subset_Sum {
    public boolean canPartition(int[] nums) {
       int totSum = Arrays.stream(nums).sum();
       if (totSum % 2 == 1) return false;

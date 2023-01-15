@@ -1,7 +1,7 @@
 package Day19;
 import Day17.TreeNode;
 
-public class Symmetric_B_Tree {
+class Symmetric_B_Tree {
    public boolean isSymmetric(TreeNode root) { return dfs(root.left, root.right); }
 
    boolean dfs(TreeNode p, TreeNode q) {

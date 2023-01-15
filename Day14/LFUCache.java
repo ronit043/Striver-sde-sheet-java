@@ -1,7 +1,7 @@
 package Day14;
 import java.util.*;
 
-public class LFUCache {
+class LFUCache {
    int cap, min = -1;
    Map<Integer, Integer> cache = new HashMap<>(), keyCount = new HashMap<>();
    Map<Integer, LinkedHashSet<Integer>> freqMap = new HashMap<>();

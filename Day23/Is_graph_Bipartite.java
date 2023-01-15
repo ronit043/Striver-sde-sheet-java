@@ -1,10 +1,9 @@
 package Day23;
-
 import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 
-public class Is_graph_Bipartite {
+class Is_graph_Bipartite {
    boolean isBipartite(int[][] graph) {
       int[] color = new int[graph.length];
       Arrays.fill(color, -1);

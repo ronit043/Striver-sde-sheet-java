@@ -1,7 +1,7 @@
 package Day17;
 import java.util.*;
 
-public class Morris_Preorder {
+class Morris_Preorder {
    public List<Integer> preorderTraversal(TreeNode root) {
       List<Integer> pre = new ArrayList<>();
       TreeNode curr = root;

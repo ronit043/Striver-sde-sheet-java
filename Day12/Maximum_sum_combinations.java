@@ -1,7 +1,5 @@
 package Day12;
-import java.util.Arrays;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 /*
 Sort both arrays A and B. Create a max heap of size k to store the sum combinations along with the indices
 of items from both arrays A and B which make the sum. Heap is ordered by the sum of both items.
@@ -11,10 +9,9 @@ Initialize the heap with the last index of second array and with maximum possibl
 
 Pop the heap to get the current largest sum and along with the indices of the element that make up the sum.
  */
-public class Maximum_sum_combinations {
+class Maximum_sum_combinations {
    public int[] solve(int[] A, int[] B, int k) {
-      Arrays.sort(A);
-      Arrays.sort(B);
+      Arrays.sort(A); Arrays.sort(B);
       int heap_size = 1, ans[] = new int[k];
       Queue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
 

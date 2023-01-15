@@ -7,7 +7,7 @@ Then we will run a loop till the number exceeds 0. Within the loop until the num
 when relevant number found in val array, we will subtract it from num and append the ans with appropriate
 roman numeral.
  */
-public class Integer_to_roman {
+class Integer_to_roman {
    public String intToRoman(int num) {
       int[] val = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
       String[] roman = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};

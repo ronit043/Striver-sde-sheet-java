@@ -2,7 +2,7 @@ package Day26;
 
 import java.util.List;
 
-public class Word_break {
+class Word_break {
    public int wordBreak(String s, List<String> b) {
       int[] dp = new int[s.length()];
 

@@ -7,7 +7,7 @@ In the iteration:
 Skip multiple spaces by decreasing the start. Add space between words. Run a loop for extracting word.
 Add current word to the answer. After the iteration is over, we return the ans as String.
  */
-public class Reverse_words_in_a_string {
+class Reverse_words_in_a_string {
    public String reverseWords(String s) {
       if (s.isEmpty() || (s.length() == 1 && s.charAt(0) == ' ')) return s;
       StringBuilder ans = new StringBuilder();

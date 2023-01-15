@@ -1,11 +1,10 @@
 package Day23;
-
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
-public class Topological_Sort_BFS {
+class Topological_Sort_BFS {
    public int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) {
       int[] inDegree = new int[V];
       List<Integer> order = new ArrayList<>();

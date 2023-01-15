@@ -9,7 +9,7 @@ Make use of the stack. Traverse the string and push the character in the stack i
 
 After complete traversal, if the stack is empty then the string is balanced else unbalanced.
  */
-public class Valid_parenthesis {
+class Valid_parenthesis {
    public boolean isValid(String s) {
       Deque<Character> stq = new ArrayDeque<>();
 

@@ -1,12 +1,10 @@
 package Day25;
-
-public class Knapsack_01 {
+class Knapsack_01 {
    public int solve(int[] val, int[] wght, int W) {
       int n = val.length;
       int[][] dp = new int[n][W + 1];
 
-      for (int wt = 0; wt <= W; wt++)
-         dp[0][wt] = (wght[0] <= wt) ? val[0] : 0;
+      for (int wt = 0; wt <= W; wt++) dp[0][wt] = (wght[0] <= wt) ? val[0] : 0;
 
       for (int idx = 1; idx < n; idx++) {
          for (int wt = 0; wt <= W; wt++) {

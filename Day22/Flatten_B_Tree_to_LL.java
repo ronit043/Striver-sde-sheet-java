@@ -2,7 +2,7 @@ package Day22;
 
 import Day17.TreeNode;
 
-public class Flatten_B_Tree_to_LL {
+class Flatten_B_Tree_to_LL {
    public void flatten(TreeNode root) {
       TreeNode curr = root;
 

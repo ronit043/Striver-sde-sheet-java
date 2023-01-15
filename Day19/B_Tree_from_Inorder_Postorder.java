@@ -4,7 +4,7 @@ import Day17.TreeNode;
 The basic idea of this approach is to build the tree recursively by utilizing the property of pre and in
 order traversal of a binary tree.
  */
-public class B_Tree_from_Inorder_Postorder {
+class B_Tree_from_Inorder_Postorder {
    public TreeNode buildTree(int[] postorder, int[] inorder) {
       return dfs(postorder, 0, postorder.length - 1,
               inorder, 0, inorder.length - 1);

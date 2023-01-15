@@ -9,7 +9,7 @@ and make the left subtree the new right subtree of the current node.
 
 This way we can also avoid keeping track of the last node of the linked list.
 */
-public class Flatten_B_Tree_to_LL {
+class Flatten_B_Tree_to_LL {
    public void flatten(TreeNode root) {
       TreeNode curr = root; // curr: Presently explored node, start exploring root
 

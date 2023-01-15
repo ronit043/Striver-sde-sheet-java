@@ -9,4 +9,9 @@ class Node {
       this.row = row;
       this.col = col;
    }
+
+   Node(TreeNode node, int col) {
+      this.node = node;
+      this.col = col;
+   }
 }

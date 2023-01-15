@@ -1,6 +1,5 @@
 package Day25;
-
-public class Matrix_Chain_Multiplication {
+class Matrix_Chain_Multiplication {
    public int matrixMultiplication(int[] arr, int N) {
       int[][] dp = new int[N][N];
 
@@ -11,7 +10,6 @@ public class Matrix_Chain_Multiplication {
                int steps = arr[i - 1] * arr[j] * arr[k] + dp[i][k] + dp[k + 1][j];
                mini = Math.min(mini, steps);
             }
-
             dp[i][j] = mini;
          }
       }

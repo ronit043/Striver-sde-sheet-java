@@ -12,7 +12,7 @@ We would assign each vertex a colour from 1 to M, check if its adjacent vertex h
 Finally, if we get a configuration such that each node is colored from 1 to M and adjacent vertices are of
 different colour, we return true. Otherwise, we return false.
  */
-public class M_Coloring {
+class M_Coloring {
    public boolean graphColoring(boolean[][] graph, int m, int n) {
       return colouringPossible(graph, new int[n], m, n, 0);
    }
